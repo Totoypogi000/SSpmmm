@@ -1,0 +1,24 @@
+Here Is Your Defult Login Details:
+
+Go To Login: 
+
+USER - admin@technicalviral.com
+PASS - 123456
+
+Thank You Very Much for Purchasing or SMM Panel Script. 
+if You Face any Problems with Installation 
+Feel free to Contact us.
+
+
+INSTALLATION
+
+create database 
+
+upload database.sql in your database
+
+then open public_html/app/config.php
+edit 
+
+Complete Installation..
+
+Have a GOOD Day.
