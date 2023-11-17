@@ -1,7 +1,7 @@
 <?php
 class Api {
     // API URL
-    public $api_url = 'http://yourwebsite.com/api/v1'; 
+    public $api_url = 'http://yototplayz.com/api/v1'; 
 
     // Your API key
     public $api_key = ''; 
@@ -117,11 +117,11 @@ $services = $api->services();
 $balance = $api->balance(); 
 
 // add order
-$order = $api->order(array('service' => 1, 'link' => 'http://example.com/test', 'quantity' => 100)); # Default
+$order = $api->order(array('service' => 1, 'link' => 'http://yototplayz.com/test', 'quantity' => 100)); # Default
 
-$order = $api->order(array('service' => 1, 'link' => 'http://example.com/test', 'comments' => "good pic\ngreat photo\n:)\n;)")); # Custom Comments
+$order = $api->order(array('service' => 1, 'link' => 'http://yototplayz.com/test', 'comments' => "good pic\ngreat photo\n:)\n;)")); # Custom Comments
 
-$order = $api->order(array('service' => 1, 'link' => 'http://example.com/test', 'quantity' => 100, 'runs' => 10, 'interval' => 60)); # Drip-feed
+$order = $api->order(array('service' => 1, 'link' => 'http://yototplayz.com/test', 'quantity' => 100, 'runs' => 10, 'interval' => 60)); # Drip-feed
 
 # return status, charge, remains, start count, order_id
 $status = $api->status(23); 
